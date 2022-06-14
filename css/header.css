@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .main_container {
+    margin: 0 auto;
+    max-width: 1920px;
+    min-width: 320px;
+  }
+  .header_container {
+    display: grid;
+    grid-auto-columns:  3fr 3fr 3fr 3fr;
+    background-color: #2165D5;
+    background-position: center bottom;
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .nav_header {
+    display: flex;
+    align-items:center;
+    font-size: 16px;
+    justify-content: center;
+  }
+  .header_link {
+    margin: 0 7px;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+  .header_link:hover {
+    /*font-size: larger;*/
+    color: rgb(49, 16, 16);
+  }
+  
+  /*.logo_href {
+    width: 290px;
+  }*/
+  .line{
+    background-color: rgb(90, 89, 89);
+    width: 100%;
+    height: 15px;
+  }

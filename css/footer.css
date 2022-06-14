@@ -1,0 +1,28 @@
+.footer_container {
+    /*background: url("../img/footer.jpg"); #1186c9;*/
+    border: 0px;
+    background-color: #FFFFFF;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    position: fixed;
+    overflow: hidden;
+  bottom: 0;
+  }
+  .icons {
+    margin: 0px 5px;
+  }
+  .info_point {
+    padding: 5px 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .phone_number {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  
